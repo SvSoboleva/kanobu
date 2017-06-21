@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Игра "Камень Ножницы Бумага"** - учебное приложение на rails 5.0.4
 
-Things you may want to cover:
+Расcчитано на работу с Heroku.
 
-* Ruby version
+**Демо**
 
-* System dependencies
+[КаменьНожницыБумага](https://kanobu2017.herokuapp.com/)
 
-* Configuration
+**Установка**
 
-* Database creation
+Клонируйте гит репозиторий.
 
-* Database initialization
+Залейте приложение на Heroku. И можно играть!
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

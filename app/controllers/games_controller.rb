@@ -28,6 +28,6 @@ class GamesController < ApplicationController
   end
 
   def set_game
-    @game = ['kamen-zelenyi.jpg', 'scissors.jpg', 'paper.jpg']
+    @game = ['kamen-zelenyi.jpg', 'scissors2.jpg', 'paper.jpg']
   end
 end
