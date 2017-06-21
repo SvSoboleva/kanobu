@@ -1,0 +1,18 @@
+<div class="row buffer-bottom">
+  <div class="col-md-6">
+    <div class="text-center">
+      <h2>Вы выбрали:</h2>
+      <%= image_tag(@game[@user_choice]) %>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="text-center">
+      <h2>Компьютер выбрал:</h2>
+      <%= image_tag(@game[@comp_choice]) %>
+    </div>
+  </div>
+</div>
+
+<div class="row text-center buffer-bottom">
+  <h1><%= @result %></h1>
+</div>

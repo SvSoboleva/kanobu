@@ -1,0 +1,6 @@
+<h1 class="h1 buffer-bottom">Новая игра! Сделайте свой выбор:</h1>
+<div class="row buffer-bottom">
+  <% @game.each_with_index do |val,i| %>
+      <%= link_to image_tag(val), game_path(i), class: 'img-knb' %>
+  <% end %>
+</div>
