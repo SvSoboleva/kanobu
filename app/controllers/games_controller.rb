@@ -13,7 +13,7 @@ class GamesController < ApplicationController
   private
 
   def comp_choice
-    rand(2)
+    rand(3)
   end
 
   def result
