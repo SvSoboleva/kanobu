@@ -18,12 +18,11 @@ class GamesController < ApplicationController
 
   def result
     if @user_choice == @comp_choice
-      'Ничья!'
-    elsif
-    %w(01 12 20).include?("#{@user_choice}#{@comp_choice}")
-      'Вы выиграли!'
+      I18n.t('controllers.result.draw')
+    elsif %w(01 12 20).include?("#{@user_choice}#{@comp_choice}")
+      I18n.t('controllers.result.win')
     else
-      'Выиграл компьютер'
+      I18n.t('controllers.result.loss')
     end
   end
 
